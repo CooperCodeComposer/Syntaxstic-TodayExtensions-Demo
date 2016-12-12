@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SyntaxsticWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>ED9203C81DFC8A9900735CC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED9203E31DFD067600735CC8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

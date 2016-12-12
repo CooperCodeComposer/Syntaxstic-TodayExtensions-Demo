@@ -12,7 +12,36 @@
 		ED9203D21DFC8A9A00735CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9203D01DFC8A9A00735CC8 /* Main.storyboard */; };
 		ED9203D41DFC8A9B00735CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9203D31DFC8A9B00735CC8 /* Assets.xcassets */; };
 		ED9203D71DFC8A9B00735CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9203D51DFC8A9B00735CC8 /* LaunchScreen.storyboard */; };
+		ED9203DF1DFCEBBA00735CC8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9203DE1DFCEBBA00735CC8 /* DataSource.swift */; };
+		ED9203E71DFD067600735CC8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9203E61DFD067600735CC8 /* NotificationCenter.framework */; };
+		ED9203EA1DFD067600735CC8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9203E91DFD067600735CC8 /* TodayViewController.swift */; };
+		ED9203ED1DFD067600735CC8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9203EB1DFD067600735CC8 /* MainInterface.storyboard */; };
+		ED9203F11DFD067600735CC8 /* SyntaxsticWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED9203E41DFD067600735CC8 /* SyntaxsticWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED9203EF1DFD067600735CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED9203C11DFC8A9900735CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9203E31DFD067600735CC8;
+			remoteInfo = SyntaxsticWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED9203F51DFD067600735CC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED9203F11DFD067600735CC8 /* SyntaxsticWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		ED9203C91DFC8A9A00735CC8 /* Syntaxstic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syntaxstic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +51,14 @@
 		ED9203D31DFC8A9B00735CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9203D61DFC8A9B00735CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9203D81DFC8A9B00735CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9203DE1DFCEBBA00735CC8 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		ED9203E41DFD067600735CC8 /* SyntaxsticWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SyntaxsticWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9203E61DFD067600735CC8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		ED9203E91DFD067600735CC8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		ED9203EC1DFD067600735CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		ED9203EE1DFD067600735CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9203F61DFD162100735CC8 /* Syntaxstic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Syntaxstic.entitlements; sourceTree = "<group>"; };
+		ED9203F71DFD168000735CC8 /* SyntaxsticWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SyntaxsticWidget.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +69,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED9203E11DFD067600735CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9203E71DFD067600735CC8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				ED9203CB1DFC8A9A00735CC8 /* Syntaxstic */,
+				ED9203E81DFD067600735CC8 /* SyntaxsticWidget */,
+				ED9203E51DFD067600735CC8 /* Frameworks */,
 				ED9203CA1DFC8A9A00735CC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9203C91DFC8A9A00735CC8 /* Syntaxstic.app */,
+				ED9203E41DFD067600735CC8 /* SyntaxsticWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +102,35 @@
 		ED9203CB1DFC8A9A00735CC8 /* Syntaxstic */ = {
 			isa = PBXGroup;
 			children = (
+				ED9203F61DFD162100735CC8 /* Syntaxstic.entitlements */,
 				ED9203CC1DFC8A9A00735CC8 /* AppDelegate.swift */,
 				ED9203CE1DFC8A9A00735CC8 /* ViewController.swift */,
+				ED9203DE1DFCEBBA00735CC8 /* DataSource.swift */,
 				ED9203D01DFC8A9A00735CC8 /* Main.storyboard */,
 				ED9203D31DFC8A9B00735CC8 /* Assets.xcassets */,
 				ED9203D51DFC8A9B00735CC8 /* LaunchScreen.storyboard */,
 				ED9203D81DFC8A9B00735CC8 /* Info.plist */,
 			);
 			path = Syntaxstic;
+			sourceTree = "<group>";
+		};
+		ED9203E51DFD067600735CC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9203E61DFD067600735CC8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED9203E81DFD067600735CC8 /* SyntaxsticWidget */ = {
+			isa = PBXGroup;
+			children = (
+				ED9203F71DFD168000735CC8 /* SyntaxsticWidget.entitlements */,
+				ED9203E91DFD067600735CC8 /* TodayViewController.swift */,
+				ED9203EB1DFD067600735CC8 /* MainInterface.storyboard */,
+				ED9203EE1DFD067600735CC8 /* Info.plist */,
+			);
+			path = SyntaxsticWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +143,34 @@
 				ED9203C51DFC8A9900735CC8 /* Sources */,
 				ED9203C61DFC8A9900735CC8 /* Frameworks */,
 				ED9203C71DFC8A9900735CC8 /* Resources */,
+				ED9203F51DFD067600735CC8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ED9203F01DFD067600735CC8 /* PBXTargetDependency */,
 			);
 			name = Syntaxstic;
 			productName = Syntaxstic;
 			productReference = ED9203C91DFC8A9A00735CC8 /* Syntaxstic.app */;
 			productType = "com.apple.product-type.application";
+		};
+		ED9203E31DFD067600735CC8 /* SyntaxsticWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9203F21DFD067600735CC8 /* Build configuration list for PBXNativeTarget "SyntaxsticWidget" */;
+			buildPhases = (
+				ED9203E01DFD067600735CC8 /* Sources */,
+				ED9203E11DFD067600735CC8 /* Frameworks */,
+				ED9203E21DFD067600735CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyntaxsticWidget;
+			productName = SyntaxsticWidget;
+			productReference = ED9203E41DFD067600735CC8 /* SyntaxsticWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +186,21 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 829TEWXQ4Y;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					ED9203E31DFD067600735CC8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 829TEWXQ4Y;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				ED9203C81DFC8A9900735CC8 /* Syntaxstic */,
+				ED9203E31DFD067600735CC8 /* SyntaxsticWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +234,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED9203E21DFD067600735CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9203ED1DFD067600735CC8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +249,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9203DF1DFCEBBA00735CC8 /* DataSource.swift in Sources */,
 				ED9203CF1DFC8A9A00735CC8 /* ViewController.swift in Sources */,
 				ED9203CD1DFC8A9A00735CC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED9203E01DFD067600735CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9203EA1DFD067600735CC8 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED9203F01DFD067600735CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9203E31DFD067600735CC8 /* SyntaxsticWidget */;
+			targetProxy = ED9203EF1DFD067600735CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ED9203D01DFC8A9A00735CC8 /* Main.storyboard */ = {
@@ -159,6 +288,14 @@
 				ED9203D61DFC8A9B00735CC8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED9203EB1DFD067600735CC8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9203EC1DFD067600735CC8 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,7 +395,9 @@
 		ED9203DC1DFC8A9B00735CC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Syntaxstic/Syntaxstic.entitlements;
 				DEVELOPMENT_TEAM = 829TEWXQ4Y;
 				INFOPLIST_FILE = Syntaxstic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -271,12 +410,42 @@
 		ED9203DD1DFC8A9B00735CC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Syntaxstic/Syntaxstic.entitlements;
 				DEVELOPMENT_TEAM = 829TEWXQ4Y;
 				INFOPLIST_FILE = Syntaxstic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alistaircooper.Syntaxstic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED9203F31DFD067600735CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SyntaxsticWidget/SyntaxsticWidget.entitlements;
+				DEVELOPMENT_TEAM = 829TEWXQ4Y;
+				INFOPLIST_FILE = SyntaxsticWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alistaircooper.Syntaxstic.SyntaxsticWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED9203F41DFD067600735CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SyntaxsticWidget/SyntaxsticWidget.entitlements;
+				DEVELOPMENT_TEAM = 829TEWXQ4Y;
+				INFOPLIST_FILE = SyntaxsticWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alistaircooper.Syntaxstic.SyntaxsticWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +469,16 @@
 				ED9203DD1DFC8A9B00735CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9203F21DFD067600735CC8 /* Build configuration list for PBXNativeTarget "SyntaxsticWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9203F31DFD067600735CC8 /* Debug */,
+				ED9203F41DFD067600735CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

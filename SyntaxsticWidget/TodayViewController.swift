@@ -3,7 +3,6 @@
 //  SyntaxsticWidget
 //
 //  Created by Alistair Cooper on 12/10/16.
-//  Copyright © 2016 Alistair Cooper. All rights reserved.
 //
 
 import UIKit

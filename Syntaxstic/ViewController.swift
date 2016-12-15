@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionStack: UIStackView!
     
     @IBOutlet weak var questionLabel: UILabel!
-    
     @IBOutlet weak var isCorrectLabel: UILabel!
     @IBOutlet weak var ans1Button: UIButton!
     @IBOutlet weak var ans2Button: UIButton!

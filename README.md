@@ -10,7 +10,7 @@ Swift quiz demo app feat Today Extensions and UIViewPropertyAnimator
 + a Today Extension widget 
 
 ![Alt text](/SyntaxsticSS.png?raw=true "")
-![Alt text](/SyntaxsticSS2.png?raw=true "")
+![Alt text](/SyntaxsticSS3.png?raw=true "")
 
 # Author
 Alistair Cooper
